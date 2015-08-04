@@ -69,7 +69,7 @@
 	[
 		{
 			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Bootstrap Example</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-with, initial-scale=1\">\n  <meta name=\"description\" content>\n  <meta name=\"description\" content>\n  \n  <link rel=\"stylesheet\" href=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n     <link href=\"../assets/css/bootstrap.css\" rel=\"stylesheet\">\n    <link href=\"../assets/css/bootstrap-responsive.css\" rel=\"stylesheet\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"../assets/ico/apple-touch-icon-144-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"../assets/ico/apple-touch-icon-114-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"../assets/ico/apple-touch-icon-72-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" href=\"../assets/ico/apple-touch-icon-57-precomposed.png\">\n  <link rel=\"shortcut icon\" href=\"../assets/ico/favicon.png\">\n</head>\n\n<body>\n<nav class=\"navbar navbar-default navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\"><b>KICKSTART</b></a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\" id=p1>Discover</a></li>\n            <li><a href=\"#start\" id=p2>start</a></li>\n            <li><a href=\"#contact\" id=p2>Contact</a></li>\n            <li><a href=\"#search projects\" id=p2><span class=\"glyphicon glyphicon-search\"></span>search projects</a></li>\n            </ul>\n            <ul class=\"nav navbar-nav  navbar-right\">\n        <li><a href=\"#\" id=p3>><span class=\"glyphicon glyphicon-user\"></span> Sign Up</a></li>\n        <li><a href=\"#\" id=p3><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>\n      \n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n	\n\n  <div class=\"container\">\n\n      <form class=\"form-group\">\n        <h2 class=\"form-signin-heading\"> <strong>Sign up</strong></h2>\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"fullname\">\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"  Email address\">\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"re-enter Email address\">\n        <input type=\"password\" class=\"input-block-level\" placeholder=\"Password\">\n        <input type=\"password\" class=\"input-block-level\" placeholder=\"Re-enter Password\">\n        \n        <label class=\"checkbox\">\n          <input type=\"checkbox\" value=\"remember-me\"> Recieve occasional updates with our favourite \n        projects and latest news.\n\n        </label>\n        <button class=\"btn btn-large btn-success btn-lg\" type=\"submit\">Sign me up</button>\n        \n        <p>By signing up,agree to our terms of use,privacy ,and cookie policy.</p>\n         \n        <button class=\"btn btn-large btn-primary btn-lg\" type=\"submit\">login with facebook</button>\n      </form>\n\n    </div>\n    <script src=\"../assets/js/jquery.js\"></script>\n    <script src=\"../assets/js/bootstrap-transition.js\"></script>\n    <script src=\"../assets/js/bootstrap-alert.js\"></script>\n    <script src=\"../assets/js/bootstrap-modal.js\"></script>\n    <script src=\"../assets/js/bootstrap-dropdown.js\"></script>\n    <script src=\"../assets/js/bootstrap-scrollspy.js\"></script>\n    <script src=\"../assets/js/bootstrap-tab.js\"></script>\n    <script src=\"../assets/js/bootstrap-tooltip.js\"></script>\n    <script src=\"../assets/js/bootstrap-popover.js\"></script>\n    <script src=\"../assets/js/bootstrap-button.js\"></script>\n    <script src=\"../assets/js/bootstrap-collapse.js\"></script>\n    <script src=\"../assets/js/bootstrap-carousel.js\"></script>\n    \n    <script src=\"../assets/js/bootstrap-typeahead.js\"></script>\n\n\n\n\n\n</body>\n</html>\n",
-			"file": "html/bootstrap.html",
+			"file": "bootstrap.html",
 			"file_size": 4364,
 			"file_write_time": 130831470381490116,
 			"settings":
@@ -79,7 +79,7 @@
 			}
 		},
 		{
-			"file": "html/csslog.html",
+			"file": "csslog.html",
 			"settings":
 			{
 				"buffer_size": 1340,
@@ -87,7 +87,7 @@
 			}
 		},
 		{
-			"file": "html/shruthi.html",
+			"file": "shruthi.html",
 			"settings":
 			{
 				"buffer_size": 2989,
@@ -95,7 +95,7 @@
 			}
 		},
 		{
-			"file": "html/login.html",
+			"file": "login.html",
 			"settings":
 			{
 				"buffer_size": 4053,
@@ -253,7 +253,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "html/bootstrap.html",
+					"file": "bootstrap.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -283,7 +283,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "html/csslog.html",
+					"file": "csslog.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -313,7 +313,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "html/shruthi.html",
+					"file": "shruthi.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -343,7 +343,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "html/login.html",
+					"file": "login.html",
 					"semi_transient": false,
 					"settings":
 					{
