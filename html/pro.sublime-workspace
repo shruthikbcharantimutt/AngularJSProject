@@ -140,6 +140,7 @@
 	},
 	"file_history":
 	[
+		"/D/Shruti/AngularJSProject/html/pro.sublime-project",
 		"/D/Shruti/AngularJSProject/1.htm",
 		"/D/s1.html",
 		"/C/s1.html",
@@ -232,7 +233,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -322,7 +323,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -338,8 +339,8 @@
 						"selection":
 						[
 							[
-								2624,
-								2624
+								2161,
+								2161
 							]
 						],
 						"settings":
@@ -349,10 +350,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 765.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -394,7 +395,7 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "project.sublime-project",
+	"project": "pro.sublime-project",
 	"replace":
 	{
 		"height": 42.0
