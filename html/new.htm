@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body style="background-color:AliceBlue">
+
+
+<<pre><h1> <strong>KICKSTART</strong>   <SMALL>DISCOVER</SMALL>  <i>start</i>                                             <em>signup   login</em>  </h1></pre>
+
+
+
+<h2>  sign up</h2>
+<div ng-app="myApp" ng-controller="formCtrl">
+  <form novalidate>
+     
+     Name:<br>
+    <input type="text" ng-model="user.Name"><br><br>
+    
+    email:<br>
+    <input type="text" ng-model="user.email">
+    <br><br>
+   
+    re enter email:<br>
+    <input type="text" ng-model="user.email"><br><br>
+    
+    password:<br>
+    <input type="text" ng-model="user.password"><br><br>
+    
+    re enter password:<br>
+    <input type="text" ng-model="user.password">
+    <br><br>
+    <p>Recieve ocassional updates with our favourite <br>
+    projects and the latest news</p>
+    <button ng-click="reset()">SIGN ME UP</button>
+       <p>by signing up,you agree our <i> terms of use<br>
+       ,privacy policy,</i>and cookie policy.</p>
+
+  </form>
+  
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('formCtrl', function($scope) {
+    $scope.master = {firstName:"John", lastName:"Doe"};
+    $scope.reset = function() {
+        $scope.user = angular.copy($scope.master);
+    };
+    $scope.reset();
+});
+</script>
+
+</body>
+</html>

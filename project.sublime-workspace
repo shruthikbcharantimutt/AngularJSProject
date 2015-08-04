@@ -1,0 +1,373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"ph",
+				"phno"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<script src= \"http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js\"></script>  \n<body>\n\n<h2>Sign up!</h2>\n\n<form ng-app=\"myApp\" ng-controller=\"validateCtrl\" \nname=\"myForm\" novalidate>\n\n<p>Username:<br>\n<input type=\"text\" name=\"user\" ng-model=\"user\" required>\n<span style=\"color:red\" ng-show=\"myForm.user.$dirty && myForm.user.$invalid\">\n<span ng-show=\"myForm.user.$error.required\">Username is required.</span>\n</span>\n</p>\n\n<p>Email:<br>\n<input type=\"email\" name=\"email\" ng-model=\"email\" required>\n<span style=\"color:red\" ng-show=\"myForm.email.$dirty && myForm.email.$invalid\">\n<span ng-show=\"myForm.email.$error.required\">Email is required.</span>\n<span ng-show=\"myForm.email.$error.email\">Invalid email address.</span>\n</span>\n</p>\n<p>Re enter Email:<br>\n<input type=\"email\" name=\"email\" ng-model=\"email\" required>\n<span style=\"color:red\" ng-show=\"myForm.email.$dirty && myForm.email.$invalid\">\n<span ng-show=\"myForm.email.$error.required\">Email is required.</span>\n<span ng-show=\"myForm.email.$error.email\">Invalid email address.</span>\n</span>\n</p>\n<p>password:<br>\n<input type=\"password\" name=\"password\" ng-model=\"password\" required>\n<span style=\"color:red\" ng-show=\"myForm.email.$dirty && myForm.password.$invalid\">\n<span ng-show=\"myForm.email.$error.required\">password is required.</span>\n<span ng-show=\"myForm.email.$error.password\">Invalid password address.</span>\n</span>\n</p>\n<p>re enter password:<br>\n<input type=\"password\" name=\"password\" ng-model=\"password\" required>\n<span style=\"color:red\" ng-show=\"myForm.email.$dirty && myForm.password.$invalid\">\n<span ng-show=\"myForm.email.$error.required\">password is required.</span>\n<span ng-show=\"myForm.email.$error.password\">Invalid password address.</span>\n</span>\n</p>\n\n<p>\n<input type=\"sign me up\"\nng-disabled=\"myForm.user.$dirty && myForm.user.$invalid ||  \nmyForm.email.$dirty && myForm.email.$invalid\">\n</p>\n\n</form>\n\n<script>\nvar app = angular.module('myApp', []);\napp.controller('validateCtrl', function($scope) {\n    $scope.user = 'shruthi';\n    $scope.email = 'shruthi@gmail.com';\n    $scope.password='1234';\n});\n</script>\n\n</body>\n</html>\n",
+			"file": "1.htm",
+			"file_size": 2213,
+			"file_write_time": 130826272267826846,
+			"settings":
+			{
+				"buffer_size": 2148,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import sublime, sublime_plugin\n\nclass ExampleCommand(sublime_plugin.TextCommand):\n	def run(self, edit):\n		self.view.insert(edit, 0, \"Hello, World!\")\n",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Rot13 Selection"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/work",
+		"/C/assets",
+		"/C/assets/css",
+		"/C/assets/html",
+		"/C/assets/images",
+		"/C/webapps"
+	],
+	"file_history":
+	[
+		"/C/bs.html",
+		"/C/shruthii.html",
+		"/C/new.htm",
+		"/C/bs1.htm",
+		"/C/final.htm",
+		"/C/sw.css",
+		"/C/login/login.css",
+		"/C/login/login.html",
+		"/C/Program Files/Sublime Text 3/shruthi/style.css",
+		"/C/Program Files/Sublime Text 3/bs.html",
+		"/C/login.css",
+		"/C/login.html",
+		"/C/final.css",
+		"/C/1.htm",
+		"/C/nan.html",
+		"/C/final.html",
+		"/C/Users/admin/28july/DishaECMServer/WebContent/resources/style/style.css",
+		"/C/final1/final1.css",
+		"/C/final1/final1.html",
+		"/C/Users/admin/AppData/Local/Mobogenie/Version/OldVersion/Mobogenie/templates/web/css/style.css",
+		"/C/Users/admin/Documents/Server/DishaAPIServer/target/dishaapiserver-1.0-SNAPSHOT/resources/styles/styles.css",
+		"/C/Program Files/Sublime Text 3/shruthi/sdaf.sublime-workspace",
+		"/C/Program Files/Sublime Text 3/shruth",
+		"/D/Workspace/shruthi.html",
+		"/D/Workspace/gh",
+		"/D/Workspace/bs.html",
+		"/D/Workspace/style.css",
+		"/C/bs",
+		"/C/.htm",
+		"/C/new",
+		"/C/Program Files/Sublime Text 3/new.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/jasdk.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh3.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh4.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh2.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/shru.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/s3.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/s1.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/s2.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh1.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh4",
+		"/C/Program Files/Sublime Text 3/shruthi/sh5.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh6.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/1",
+		"/C/Program Files/Sublime Text 3/shruthi/1.html",
+		"/C/Program Files/Sublime Text 3/shruthi/sdaf.sublime-project",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files/Sublime Text 3/shruthi/s5.htm",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/Sublime Text 3/shruthi/sh7.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh9.htm",
+		"/C/Program Files/Sublime Text 3/shruthi/sh8.htm"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"<p><input type=\"password\" name=\"password\" value=\"\" placeholder=\"Password\"></p>",
+			"points"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "1.htm",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\admin\\AppData\\Roaming\\Sublime Text 3\\Packages\\User",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "p",
+		"selected_items":
+		[
+			[
+				"p",
+				"C:\\project.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,22 @@
+#p1{
+	font-size:200%;
+	font-family: "Times New Roman",Times,serif;
+	color:green;
+}
+
+#p2{
+	font-style: italic;
+	font-size: 20px;
+}
+
+#p3{
+	font-size: 20px;
+	color: lightblue;
+}
+
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
