@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"D",
+				"display"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
 				"margin-",
 				"margin-right"
 			],
@@ -22,10 +38,6 @@
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"he",
@@ -68,45 +80,18 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>Bootstrap Example</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-with, initial-scale=1\">\n  <meta name=\"description\" content>\n  <meta name=\"description\" content>\n  \n  <link rel=\"stylesheet\" href=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n     <link href=\"../assets/css/bootstrap.css\" rel=\"stylesheet\">\n    <link href=\"../assets/css/bootstrap-responsive.css\" rel=\"stylesheet\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"../assets/ico/apple-touch-icon-144-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"../assets/ico/apple-touch-icon-114-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"../assets/ico/apple-touch-icon-72-precomposed.png\">\n  <link rel=\"apple-touch-icon-precomposed\" href=\"../assets/ico/apple-touch-icon-57-precomposed.png\">\n  <link rel=\"shortcut icon\" href=\"../assets/ico/favicon.png\">\n</head>\n\n<body>\n<nav class=\"navbar navbar-default navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\"><b>KICKSTART</b></a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\" id=p1>Discover</a></li>\n            <li><a href=\"#start\" id=p2>start</a></li>\n            <li><a href=\"#contact\" id=p2>Contact</a></li>\n            <li><a href=\"#search projects\" id=p2><span class=\"glyphicon glyphicon-search\"></span>search projects</a></li>\n            </ul>\n            <ul class=\"nav navbar-nav  navbar-right\">\n        <li><a href=\"#\" id=p3>><span class=\"glyphicon glyphicon-user\"></span> Sign Up</a></li>\n        <li><a href=\"#\" id=p3><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>\n      \n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n	\n\n  <div class=\"container\">\n\n      <form class=\"form-group\">\n        <h2 class=\"form-signin-heading\"> <strong>Sign up</strong></h2>\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"fullname\">\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"  Email address\">\n        <input type=\"text\" class=\"input-block-level\" placeholder=\"re-enter Email address\">\n        <input type=\"password\" class=\"input-block-level\" placeholder=\"Password\">\n        <input type=\"password\" class=\"input-block-level\" placeholder=\"Re-enter Password\">\n        \n        <label class=\"checkbox\">\n          <input type=\"checkbox\" value=\"remember-me\"> Recieve occasional updates with our favourite \n        projects and latest news.\n\n        </label>\n        <button class=\"btn btn-large btn-success btn-lg\" type=\"submit\">Sign me up</button>\n        \n        <p>By signing up,agree to our terms of use,privacy ,and cookie policy.</p>\n         \n        <button class=\"btn btn-large btn-primary btn-lg\" type=\"submit\">login with facebook</button>\n      </form>\n\n    </div>\n    <script src=\"../assets/js/jquery.js\"></script>\n    <script src=\"../assets/js/bootstrap-transition.js\"></script>\n    <script src=\"../assets/js/bootstrap-alert.js\"></script>\n    <script src=\"../assets/js/bootstrap-modal.js\"></script>\n    <script src=\"../assets/js/bootstrap-dropdown.js\"></script>\n    <script src=\"../assets/js/bootstrap-scrollspy.js\"></script>\n    <script src=\"../assets/js/bootstrap-tab.js\"></script>\n    <script src=\"../assets/js/bootstrap-tooltip.js\"></script>\n    <script src=\"../assets/js/bootstrap-popover.js\"></script>\n    <script src=\"../assets/js/bootstrap-button.js\"></script>\n    <script src=\"../assets/js/bootstrap-collapse.js\"></script>\n    <script src=\"../assets/js/bootstrap-carousel.js\"></script>\n    \n    <script src=\"../assets/js/bootstrap-typeahead.js\"></script>\n\n\n\n\n\n</body>\n</html>\n",
-			"file": "html/bootstrap.html",
-			"file_size": 4364,
-			"file_write_time": 130831470381490116,
-			"settings":
-			{
-				"buffer_size": 4270,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/csslog.html",
-			"settings":
-			{
-				"buffer_size": 1340,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/shruthi.html",
-			"settings":
-			{
-				"buffer_size": 2989,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "html/login.html",
 			"settings":
 			{
-				"buffer_size": 4053,
+				"buffer_size": 5213,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import sublime, sublime_plugin\n\nclass ExampleCommand(sublime_plugin.TextCommand):\n	def run(self, edit):\n		self.view.insert(edit, 0, \"Hello, World!\")\n",
+			"file": "css/login.css",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 482,
 				"line_ending": "Windows"
 			}
 		}
@@ -150,12 +135,19 @@
 	[
 		"/C/work",
 		"/D/Shruti/AngularJSProject",
+		"/D/Shruti/AngularJSProject/css",
 		"/D/Shruti/AngularJSProject/html",
 		"/C/webapps",
 		"/C/logs"
 	],
 	"file_history":
 	[
+		"/D/Shruti/AngularJSProject/css/login.css",
+		"/D/Shruti/AngularJSProject/html/rounded.html",
+		"/D/Shruti/AngularJSProject/html/bootstrap.html",
+		"/D/Shruti/AngularJSProject/html/shruthi.html",
+		"/D/Shruti/AngularJSProject/html/csslog.html",
+		"/D/Shruti/AngularJSProject/html/pro.sublime-project",
 		"/D/Shruti/AngularJSProject/1.htm",
 		"/D/s1.html",
 		"/C/s1.html",
@@ -248,114 +240,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/bootstrap.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "html/csslog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/shruthi.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "html/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4053,
+						"buffer_size": 5213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								2615,
+								2615
 							]
 						],
 						"settings":
@@ -365,38 +267,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 930.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 1,
+					"file": "css/login.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 482,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								268,
+								268
 							]
 						],
 						"settings":
 						{
-							"default_dir": "C:\\Users\\admin\\AppData\\Roaming\\Sublime Text 3\\Packages\\User",
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
