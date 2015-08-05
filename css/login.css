@@ -20,7 +20,7 @@ div {
     border: 5px solid gray;
     margin: 0;
 }
-#footer {
+footer {
 
 	background-color:black;
 	color:white;
@@ -36,3 +36,8 @@ div {
         width: 500px;
         clear: both;
     }
+
+   form{ 
+   	width:500px;
+   	 height:500px;
+   	 margin-right: 600px;}

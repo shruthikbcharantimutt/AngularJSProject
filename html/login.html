@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="login.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+   <script src="login.js"></script>
+  
 
-  <style> form{ width:500px; height:500px;margin-right: 600px;}</style>
 </head>
 
 
@@ -37,16 +39,26 @@
 
 <div class="container">
 <div class="jamborton">
+<
   <h2>SIGN UP</h2>
   
 
   <form role="form">
    
    <div class="form-group">
+
+   <div ng-controller="ExampleController">
+  <form name="form" class="css-form" novalidate>
+ 
     
     <label for="username">username:</label>
-      <input type="name" class="form-control" id="username" placeholder="username">
+    <input type="text" ng-model="user.name" name="uName" class="form-control" id="username" placeholder="username" required="" />
+    <br />
+    <div ng-show="form.$submitted || form.uName.$touched">
+      <div ng-show="form.uName.$error.required">Tell us your name.</div>
     </div>
+
+     
      <div class="form-group">
     
     <label for="email">Email:</label>
@@ -97,6 +109,10 @@ without your permission.</p>
       </form>
 </form>
     </div>
+
+
+  
+
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
