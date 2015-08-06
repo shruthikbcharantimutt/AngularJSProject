@@ -16,6 +16,7 @@ src="http://maps.googleapis.com/maps/api/js">
     <meta charset="utf-8">
     <style>
       html, body, #map-canvas {
+        background-color:bisque;
         height: 100%;
         margin: 0;
         padding: 0;
@@ -33,7 +34,7 @@ src="http://maps.googleapis.com/maps/api/js">
       }
 
       #pac-input {
-        background-color: #fff;
+        background-color: aliceblue;
         font-family: Roboto;
         font-size: 15px;
         font-weight: 300;
@@ -136,11 +137,44 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
+
+
+
+<script>
+ var pyrmont = new google.maps.LatLng(-33.88858402464521, 151.18735671043396);    
+  map = new google.maps.Map(document.getElementById('map-canvas'), {
+    center: pyrmont,
+    zoom: 15
+  });
+
+  var request = {
+    location: pyrmont,
+    radius: 1,
+  };
+  infowindow = new google.maps.InfoWindow();
+  var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, callback);
+}
+</script>
+
+
+
     <style>
       #target {
         width: 345px;
       }
     </style>
+
+
+
+
+ 
+    </style>
+
+
+
+
+
 
 
 </head>
@@ -178,110 +212,30 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </div>
     </nav>
 <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-    <div id="map-canvas" style="width:650px;height:300px;margin-left:475px;margin-right:500px;margin-top:150px;"></div>
+    
+
+    <div id="map-canvas" style="width:900px;height:400px;margin-left:350px;margin-right:350px;margin-top:150px;"></div>
 
 
-<table bgcolor="aliceblue" cellpadding="5" cellspacing="0" border="2" width="650px" height="300px" align="center">
-<tbody><tr>
-<td width="50%" valign="top">
-<br>
+<table style="border:1px solid black,bgcolor=orange;">
+
 <center>
-<input type="button"  value="Clear " id="reset" onclick="reset()">&nbsp;&nbsp;
-<br><br>
-<input type="button" onclick="rL();" value="Remove Last Blue Marker">&nbsp;&nbsp;
-<br><br>
-<input type="button" value="Center Red Marker" id="reset1" onclick="reset1()">
-<br>
+ <tr>
+ <button type="submit" class="btn btn-danger btn-lg">REMOVE LAST BLUE MARKER</button>
+</tr><br><br>
+
+<tr>
+<button type="submit" class="btn btn-success btn-lg">CENTER RED MARKER!</button>
+</tr><br><br>
+
+<tr>
+  <button type="submit" class="btn btn-warning btn-lg">CLEAR!</button>
+</tr><br><br>
+
+
+
 </center>
-<hr>
-
-
-<h3><span color:red>Get the Latitude and Longitude of a Point</span></h3> 
-  <p><i>When you click on the map, move the marker or enter an address the latitude and longitude coordinates of the point are inserted in the boxes below.</i></p>
-
-<table bgcolor="#00FF00" width=100%>
-<tbody>
-<tr>
-<td>Latitude:</td>
-<td colspan="3">
-<input size="15" type="text" id="latbox" name="lat" value=""></td></tr>
-
-<tr>
-<td>Longitude:</td>
-<td colspan="3">
-<input size="15" type="text" id="lonbox" name="lon" value=""></td></tr>
-<tr>
-<td colspan="4"><br><hr></td>
-</tr>
-<tr>
-<td> </td>
-<td><strong>Degrees</strong></td>
-<td><strong>Minutes</strong></td>
-<td><strong>Seconds</strong></td>
-</tr>
-<tr>
-<td>Latitude:</td>
-<td><input size="5" type="text" id="latbox" name="lat" value=""></td>
-<td><input size="6" type="text" id="latbox" name="lat" value=""></td>
-<td><input size="8" type="text" id="latbox" name="lat" value=""></td></tr>
-<tr>
-
-<td>Longitude:</td>
-<td><input size="5" type="text" id="lonbox" name="lon" value=""></td>
-<td><input size="6" type="text" id="lonbox" name="lon" value=""></td>
-<td><input size="8" type="text" id="lonbox" name="lon" value=""></td></tr>
-</tbody></table>
-</td>
-
-<td width="50%" valign="top">
-
-
-<h3>Show Point from Latitude and Longitude</h3>
-
-<p>Use this if you know the latitude and longitude coordinates of a point and want to see where on the map the point is.</p>
-<br>
-<strong>Use:</strong>&nbsp;
-<strong><font size="5">+</font></strong> for <em>N</em> Lat or <em>E</em> Long&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<strong><font size="5">-</font></strong> for <em>S</em> Lat or <em>W</em> Long.<br><strong>Example:</strong> +40.689060&nbsp;&nbsp;-74.044636<br><strong>Note:</strong> Your entry should not have any embedded spaces.</p>
-
-<table width="100%">
-<form onsubmit="showLatLong(this.latitude.value, this.longitude.value); return false;"></form>
-
-<tbody>
-<tr>
-<td colspan="2">Decimal Deg. Latitude:</td>
-<td colspan="2"><input type="text" size="13" id="latbox1" name="latitude" value=""></td>
-</tr>
-<tr>
-<td colspan="2">Decimal Deg. Longitude:</td>
-<td colspan="2"><input type="text" size="13" id="lonbox1" name="longitude" value=""></td>
-</tr>
-<tr>
-<td colspan="4" align="center"><input type="submit" value="Show Point"></td></tr>
-
-<tr><td colspan="4"><hr>Example: <strong>+34&nbsp;&nbsp;&nbsp;40&nbsp;&nbsp;&nbsp;50.12</strong>&nbsp;&nbsp;&nbsp;for <em>34N 40' 50.12"</em></td></tr>
-
-<form onsubmit="showLatLong1(this.latm.value, this.latmd.value, this.latms. value, this.lonm.value, this.lonmd.value, this.lonms.value); return false;"></form>
-
-<tr>
-<td> </td>
-<td><strong>Degrees</strong></td>
-<td><strong>Minutes</strong></td>
-<td><strong>Seconds</strong></td></tr>
-<tr><td>Latitude:</td>
-<td><input size="5" type="text" id="latbox1m" name="latm" value=""></td>
-<td><input size="6" type="text" id="latbox1md" name="latmd" value=""></td>
-<td><input size="8" type="text" id="latbox1ms" name="latms" value=""></td></tr>
-<tr>
-<td>Longitude:</td><td><input size="5" type="text" id="lonbox1m" name="lonm" value=""></td><td><input size="6" type="text" id="lonbox1md" name="lonmd" value=""></td><td><input size="8" type="text" id="lonbox1ms" name="lonms" value=""></td>
-</tr>
-<tr><td colspan="4" align="center"><input type="submit" value="Show Point"></td></tr>
-
-</tbody>
 </table>
-</td>
 
-</tr>
-</tbody></table>
 </body>
 </html>

@@ -68,26 +68,38 @@
 	"buffers":
 	[
 		{
-			"file": "maps/geoloc.html",
+			"file": "/C/login/login.html",
 			"settings":
 			{
-				"buffer_size": 978,
+				"buffer_size": 3100,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/Shruti/AngularJSProject/js/geoloc.js",
+			"contents": "<!doctype html>\n<html>\n<head>\n<title>layout</title>\n</html>\n\n<body>\n<div id=\"header\">\n<h1>examlpe for layout</h1>\n</div>\n\n<div id=",
 			"settings":
 			{
-				"buffer_size": 1232,
+				"buffer_size": 130,
+				"line_ending": "Windows",
+				"name": "<!doctype html>"
+			}
+		},
+		{
+			"contents": "#p1{\n	font-size:100%;\n	color:green;\n}\n#p2{\n	font-style: italic;\n	font-size: 10px;\n\n}\n\n#p2{\n	font-style: italic;\n	font-size: 10px;\n    color:lightblue;\n}\n\n#p4{color:white;\n    margin:20px;\n    padding:20px;\n} \n\n#form {\n  position: relative;\n\n  width  : 200px;\n  height : 500px;\n  margin-top: 150px;\n  margin-right: 750px;\n  margin-left: 450px;\n  margin-bottom:150px \n}\n\n \n\n#footer {\n    background-color:black;\n    color:white;\n    clear:both;\n      \n    padding:50px; \n}\n}\n\n",
+			"file": "/C/login/login.css",
+			"file_size": 513,
+			"file_write_time": 130831345277002647,
+			"settings":
+			{
+				"buffer_size": 474,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/Shruti/AngularJSProject/css/geoloc.css",
+			"file": "/C/bs.html",
 			"settings":
 			{
-				"buffer_size": 1065,
+				"buffer_size": 4271,
 				"line_ending": "Windows"
 			}
 		}
@@ -99,7 +111,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 360.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -115,7 +127,6 @@
 		"height": 114.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -129,28 +140,19 @@
 	},
 	"file_history":
 	[
-		"/D/Shruti/AngularJSProject/html/project.sublime-project",
-		"/D/Shruti/AngularJSProject/html/bootstrap.html",
-		"/D/Shruti/AngularJSProject/html/login.html",
-		"/D/Shruti/AngularJSProject/html/shruthi.html",
-		"/D/Shruti/AngularJSProject/html/csslog.html",
-		"/D/Shruti/AngularJSProject/1.htm",
-		"/D/s1.html",
-		"/C/s1.html",
-		"/C/bs.html",
-		"/C/shruthii.html",
-		"/C/new.htm",
-		"/C/bs1.htm",
-		"/C/final.htm",
-		"/C/sw.css",
-		"/C/login/login.css",
 		"/C/login/login.html",
 		"/C/Program Files/Sublime Text 3/shruthi/style.css",
+		"/C/bs.html",
 		"/C/Program Files/Sublime Text 3/bs.html",
 		"/C/login.css",
 		"/C/login.html",
 		"/C/final.css",
+		"/C/bs1.htm",
+		"/C/sw.css",
+		"/C/shruthii.html",
 		"/C/1.htm",
+		"/C/new.htm",
+		"/C/final.htm",
 		"/C/nan.html",
 		"/C/final.html",
 		"/C/Users/admin/28july/DishaECMServer/WebContent/resources/style/style.css",
@@ -192,11 +194,11 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -206,7 +208,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"=\"//",
 			";\n",
 			"<p><input type=\"password\" name=\"password\" value=\"\" placeholder=\"Password\"></p>",
 			"points"
@@ -232,27 +233,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "maps/geoloc.html",
+					"file": "/C/login/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 978,
+						"buffer_size": 3100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								510
+								1207,
+								1207
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -260,47 +264,47 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/Shruti/AngularJSProject/js/geoloc.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1232,
+						"buffer_size": 130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1232,
-								1232
+								130,
+								130
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "<!doctype html>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/D/Shruti/AngularJSProject/css/geoloc.css",
+					"file": "/C/login/login.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1065,
+						"buffer_size": 474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1063,
-								1063
+								447,
+								447
 							]
 						],
 						"settings":
@@ -310,10 +314,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 278.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/bs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1151.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -325,7 +359,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -354,8 +388,12 @@
 	{
 		"height": 100.0
 	},
-	"pinned_build_system": "",
-	"project": "project.sublime-project",
+	"output.unsaved_changes":
+	{
+		"height": 292.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "sdaf.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -372,20 +410,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"C:\\assets\\project.sublime-project"
-			],
-			[
-				"p",
-				"C:\\project.sublime-workspace"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{

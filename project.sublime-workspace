@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"b",
+				"bgcolor	Attr"
+			],
+			[
+				"SP",
+				"span"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
 				"mar",
 				"margin-right"
 			],
@@ -44,20 +68,12 @@
 				"header	Tag"
 			],
 			[
-				"ma",
-				"margin-bottom"
-			],
-			[
 				"te",
 				"text-align"
 			],
 			[
 				"wid",
 				"width"
-			],
-			[
-				"ba",
-				"background"
 			],
 			[
 				"st",
@@ -79,22 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "html/login.html",
-			"settings":
-			{
-				"buffer_size": 5213,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/login.css",
-			"settings":
-			{
-				"buffer_size": 482,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -131,18 +131,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/work",
-		"/D/Shruti/AngularJSProject",
-		"/D/Shruti/AngularJSProject/css",
-		"/D/Shruti/AngularJSProject/html",
-		"/C/webapps",
-		"/C/logs"
-	],
 	"file_history":
 	[
+		"/D/Shruti/AngularJSProject/html/maps/langlat.html",
+		"/D/Shruti/AngularJSProject/html/maps/geoloc.html",
+		"/D/Shruti/AngularJSProject/js/langlat.js",
+		"/D/Shruti/AngularJSProject/html/login.html",
+		"/D/Shruti/AngularJSProject/js/login.js",
 		"/D/Shruti/AngularJSProject/css/login.css",
+		"/D/Shruti/AngularJSProject/js/basic.js",
+		"/D/Shruti/AngularJSProject/html/maps/basic.html",
 		"/D/Shruti/AngularJSProject/html/rounded.html",
 		"/D/Shruti/AngularJSProject/html/bootstrap.html",
 		"/D/Shruti/AngularJSProject/html/shruthi.html",
@@ -220,6 +218,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"relative",
+			">\n",
 			";\n",
 			"<p><input type=\"password\" name=\"password\" value=\"\" placeholder=\"Password\"></p>",
 			"points"
@@ -240,67 +240,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "html/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2615,
-								2615
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 930.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/login.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								268,
-								268
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

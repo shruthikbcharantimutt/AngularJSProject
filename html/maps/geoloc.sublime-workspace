@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"b",
+				"bgcolor	Attr"
+			],
+			[
+				"SP",
+				"span"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"D",
+				"display"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
 				"margin-",
 				"margin-right"
 			],
@@ -24,16 +64,8 @@
 				"margin-bottom"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"he",
 				"header	Tag"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"te",
@@ -42,10 +74,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"ba",
-				"background"
 			],
 			[
 				"st",
@@ -67,30 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "maps/geoloc.html",
-			"settings":
-			{
-				"buffer_size": 978,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Shruti/AngularJSProject/js/geoloc.js",
-			"settings":
-			{
-				"buffer_size": 1232,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Shruti/AngularJSProject/css/geoloc.css",
-			"settings":
-			{
-				"buffer_size": 1065,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -129,11 +133,19 @@
 	},
 	"file_history":
 	[
-		"/D/Shruti/AngularJSProject/html/project.sublime-project",
-		"/D/Shruti/AngularJSProject/html/bootstrap.html",
+		"/D/Shruti/AngularJSProject/html/maps/langlat.html",
+		"/D/Shruti/AngularJSProject/html/maps/geoloc.html",
+		"/D/Shruti/AngularJSProject/js/langlat.js",
 		"/D/Shruti/AngularJSProject/html/login.html",
+		"/D/Shruti/AngularJSProject/js/login.js",
+		"/D/Shruti/AngularJSProject/css/login.css",
+		"/D/Shruti/AngularJSProject/js/basic.js",
+		"/D/Shruti/AngularJSProject/html/maps/basic.html",
+		"/D/Shruti/AngularJSProject/html/rounded.html",
+		"/D/Shruti/AngularJSProject/html/bootstrap.html",
 		"/D/Shruti/AngularJSProject/html/shruthi.html",
 		"/D/Shruti/AngularJSProject/html/csslog.html",
+		"/D/Shruti/AngularJSProject/html/pro.sublime-project",
 		"/D/Shruti/AngularJSProject/1.htm",
 		"/D/s1.html",
 		"/C/s1.html",
@@ -206,7 +218,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"=\"//",
+			"relative",
+			">\n",
 			";\n",
 			"<p><input type=\"password\" name=\"password\" value=\"\" placeholder=\"Password\"></p>",
 			"points"
@@ -227,95 +240,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "maps/geoloc.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								510,
-								510
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Shruti/AngularJSProject/js/geoloc.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1232,
-								1232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/Shruti/AngularJSProject/css/geoloc.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1063,
-								1063
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 278.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -355,7 +281,7 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "project.sublime-project",
+	"project": "geoloc.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -373,13 +299,9 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "p",
 		"selected_items":
 		[
-			[
-				"",
-				"C:\\assets\\project.sublime-project"
-			],
 			[
 				"p",
 				"C:\\project.sublime-workspace"
